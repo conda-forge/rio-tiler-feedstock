@@ -5,11 +5,9 @@ Home: https://github.com/cogeotiff/rio-tiler
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rio-tiler-feedstock/blob/master/LICENSE.txt)
 
-Summary: Get mercator tile from CloudOptimized GeoTIFF and other cloud hosted raster such as CBERS-4, Sentinel-2, Sentinel-1 and Landsat-8 AWS PDS
-
-
+Summary: Rasterio plugin to read mercator tiles from Cloud Optimized GeoTIFF.
 
 Current build status
 ====================
