@@ -11,7 +11,7 @@ source:
   sha256: e1da6185f697d0fa0e26d1775919adc92c6bd50f5ef3e4bfb7d5e71a2d1a4125
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -22,6 +22,7 @@ requirements:
   run:
     - attrs
     - boto3
+    - httpx
     - morecantile >=2.1,<2.2
     - numexpr
     - numpy
