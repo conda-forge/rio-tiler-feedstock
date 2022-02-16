@@ -18,19 +18,19 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - attrs
     - boto3
+    - cachetools
     - httpx
-    - morecantile >=2.1,<2.2
+    - morecantile >=3.0,<3.1
     - numexpr
     - numpy
     - pydantic
-    - pystac >=0.5.3
-    - python >=3.6
+    - pystac >=0.5.4
+    - python >=3.7
     - rasterio >=1.1.7
-    - requests
     - rio-color
 
 test:
