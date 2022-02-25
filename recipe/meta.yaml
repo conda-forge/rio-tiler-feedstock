@@ -18,18 +18,18 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.7,<3.9
   run:
     - attrs
     - boto3
     - cachetools
     - httpx
-    - morecantile >=3.0,<3.1
+    - morecantile >=3.1,<4.0
     - numexpr
     - numpy
     - pydantic
     - pystac >=0.5.4
-    - python >=3.7
+    - python >=3.7,<3.9
     - rasterio >=1.1.7
     - rio-color
 
@@ -44,7 +44,7 @@ test:
 
 about:
   home: https://github.com/cogeotiff/rio-tiler
-  summary: Rasterio plugin to read mercator tiles from Cloud Optimized GeoTIFF.
+  summary: User friendly Rasterio plugin to read raster datasets.
   license: BSD-3-Clause
   license_file: LICENSE
 
