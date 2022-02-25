@@ -24,6 +24,7 @@ requirements:
     - boto3
     - cachetools
     - httpx
+    - importlib_resources >=1.1.0
     - morecantile >=3.1,<4.0
     - numexpr
     - numpy
