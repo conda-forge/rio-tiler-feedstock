@@ -1,5 +1,5 @@
 {% set name = "rio-tiler" %}
-{% set version = "3.0.3" %}
+{% set version = "3.1.0" %}
 
 
 package:
@@ -8,28 +8,29 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rio-tiler-{{ version }}.tar.gz
-  sha256: e1da6185f697d0fa0e26d1775919adc92c6bd50f5ef3e4bfb7d5e71a2d1a4125
+  sha256: 37a77239e05faa05ec9cf2f3012348c08b877d415e311823526ec357f9d64756
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.7,<3.9
   run:
     - attrs
     - boto3
     - cachetools
     - httpx
-    - morecantile >=3.0,<3.1
+    - importlib_resources >=1.1.0
+    - morecantile >=3.1,<4.0
     - numexpr
     - numpy
     - pydantic
     - pystac >=0.5.4
-    - python >=3.7
+    - python >=3.7,<3.9
     - rasterio >=1.1.7
     - rio-color
 
@@ -44,7 +45,7 @@ test:
 
 about:
   home: https://github.com/cogeotiff/rio-tiler
-  summary: Rasterio plugin to read mercator tiles from Cloud Optimized GeoTIFF.
+  summary: User friendly Rasterio plugin to read raster datasets.
   license: BSD-3-Clause
   license_file: LICENSE
 
