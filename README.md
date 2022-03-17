@@ -5,9 +5,9 @@ Home: https://github.com/cogeotiff/rio-tiler
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rio-tiler-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rio-tiler-feedstock/blob/main/LICENSE.txt)
 
-Summary: Rasterio plugin to read mercator tiles from Cloud Optimized GeoTIFF.
+Summary: User friendly Rasterio plugin to read raster datasets.
 
 Current build status
 ====================
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10184&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rio-tiler-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10184&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rio-tiler-feedstock?branchName=main">
       </a>
     </td>
   </tr>
