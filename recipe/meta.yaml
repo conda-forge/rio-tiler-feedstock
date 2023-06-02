@@ -24,12 +24,11 @@ requirements:
   run:
     - python >=3.8
     - attrs
-    - boto3
     - cachetools
     - httpx
     - numexpr
     - numpy
-    - morecantile >=3.1,<4.0
+    - morecantile >=4.0,<5.0
     - pydantic
     - pystac >=0.5.4
     - rasterio >=1.3.0
