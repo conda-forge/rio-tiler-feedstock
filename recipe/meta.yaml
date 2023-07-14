@@ -12,9 +12,9 @@ source:
   sha256: dc5dcaf56c191bef1c0284368e1a03e220eb72e42bcb454ad45032ab1ad3de65
 
 build:
-  number: 0
-  noarch: python
+  skip: true  # [py<38]
   script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
   host:
@@ -23,6 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.8
+    - affine
     - attrs
     - cachetools
     - httpx
@@ -33,7 +34,7 @@ requirements:
     - pystac >=0.5.4
     - rasterio >=1.3.0
     - color-operations
-    - importlib-resources >=1.1.0
+    - importlib-resources >=1.1.0  # [py<39]
 
 test:
   imports:
