@@ -34,7 +34,7 @@ requirements:
     - pystac >=0.5.4
     - rasterio >=1.3.0
     - color-operations
-    - importlib-resources >=1.1.0  # [py<39]
+    - importlib-resources >=1.1.0
 
 test:
   imports:
