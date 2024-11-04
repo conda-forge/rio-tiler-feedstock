@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rio_tiler-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rio_tiler-{{ version }}.tar.gz
   sha256: 4dfa60e441ef9e60706049ecb20f5fe2dd269ccdabcc7426ece1af98e903e8a9
 
 build:
@@ -53,6 +53,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - AndrewAnnex
     - jsignell
     - lsetiawan
     - nrweir
