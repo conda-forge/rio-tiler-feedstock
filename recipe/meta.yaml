@@ -3,12 +3,13 @@
 
 
 
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rio_tiler-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rio_tiler-{{ version }}.tar.gz
   sha256: 41f00569a293aa94180cde965f1e3ce2ebb1b77dfb75009f3ea3a3faf3c37ba1
 
 build:
@@ -53,6 +54,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - AndrewAnnex
     - jsignell
     - lsetiawan
     - nrweir
