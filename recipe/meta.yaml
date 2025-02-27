@@ -1,5 +1,5 @@
 {% set name = "rio-tiler" %}
-{% set version = "7.4.0" %}
+{% set version = "7.5.0" %}
 
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rio_tiler-{{ version }}.tar.gz
-  sha256: 8a99d6d7fef1e5e850c48d56403772e9221815fd5c0e8506fa32ed7c77666818
+  sha256: a418ed4b36abff0260c52aa48ca7ba046142e2718310680f87b917865a0a6760
 
 build:
   noarch: python
