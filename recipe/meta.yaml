@@ -23,18 +23,16 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - affine
     - attrs
     - cachetools
     - httpx
     - numexpr
     - numpy
-    - morecantile >=5.0,<7.0
+    - morecantile >=5.0,<8.0
     - pydantic ~=2.0
-    - pystac >=0.5.4
-    - rasterio >=1.3.0
+    - pystac >=1.9,<2.0
+    - rasterio >=1.4.0
     - color-operations
-    - importlib-resources >=1.1.0
 
 test:
   imports:
