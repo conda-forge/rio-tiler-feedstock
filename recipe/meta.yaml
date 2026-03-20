@@ -33,6 +33,7 @@ requirements:
     - pystac >=1.9,<2.0
     - rasterio >=1.4.0
     - color-operations
+    - typing-extensions >=4.10.0  # [python < 3.12]
 
 test:
   imports:
